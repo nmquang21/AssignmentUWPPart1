@@ -40,9 +40,9 @@ namespace AssignmentUWPPart1.Pages
                 this.name_validate.Text = "Name not be blank";
                 return false;
             }
-            if (name.Length < 50)
+            if (name.Length >= 50)
             {
-                this.name_validate.Text = "Name must is 50 character";
+                this.name_validate.Text = "Name letter 50 character";
                 return false;
             }
 
@@ -58,8 +58,17 @@ namespace AssignmentUWPPart1.Pages
                 return false;
             }
 
-            string linkExtend = link.Substring(link.Length-4);
+            if (link.Length < 4)
+            {
+                return false;
+            }
+            string linkExtend = link.Substring(link.Length - 4);
             Debug.WriteLine(linkExtend);
+            if (!linkExtend.Equals(".mp3"))
+            {
+                this.link_validate.Text = "Link end is mp3";
+                return false;
+            }
             return true;
         }
         private void ButtonUpload_OnClick(object sender, RoutedEventArgs e)

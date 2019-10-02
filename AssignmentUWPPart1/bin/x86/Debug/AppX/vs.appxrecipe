@@ -30,13 +30,13 @@
     <AppXManifest Include="E:\APTECH\Sem3\AssignmentUWPPart1\AssignmentUWPPart1\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-10-02T13:54:08.207</Modified>
+      <Modified>2019-10-02T14:20:39.536</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="E:\APTECH\Sem3\AssignmentUWPPart1\AssignmentUWPPart1\bin\x86\Debug\AssignmentUWPPart1.exe">
       <PackagePath>entrypoint\AssignmentUWPPart1.exe</PackagePath>
-      <Modified>2019-10-02T13:54:07.803</Modified>
+      <Modified>2019-10-02T14:20:39.138</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\nmqua\.nuget\packages\newtonsoft.json\12.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
       <PackagePath>Newtonsoft.Json.dll</PackagePath>
@@ -94,27 +94,27 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\APTECH\Sem3\AssignmentUWPPart1\AssignmentUWPPart1\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-10-02T13:54:07.605</Modified>
+      <Modified>2019-10-02T14:20:38.935</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\APTECH\Sem3\AssignmentUWPPart1\AssignmentUWPPart1\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-10-02T13:54:07.605</Modified>
+      <Modified>2019-10-02T14:20:38.936</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\APTECH\Sem3\AssignmentUWPPart1\AssignmentUWPPart1\bin\x86\Debug\Pages\Home.xbf">
       <PackagePath>Pages\Home.xbf</PackagePath>
-      <Modified>2019-10-02T13:54:07.605</Modified>
+      <Modified>2019-10-02T14:20:38.936</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\APTECH\Sem3\AssignmentUWPPart1\AssignmentUWPPart1\bin\x86\Debug\Pages\List.xbf">
       <PackagePath>Pages\List.xbf</PackagePath>
-      <Modified>2019-10-02T13:54:07.606</Modified>
+      <Modified>2019-10-02T14:20:38.936</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\APTECH\Sem3\AssignmentUWPPart1\AssignmentUWPPart1\bin\x86\Debug\Pages\Naview.xbf">
       <PackagePath>Pages\Naview.xbf</PackagePath>
-      <Modified>2019-10-02T13:54:07.606</Modified>
+      <Modified>2019-10-02T14:20:38.936</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\APTECH\Sem3\AssignmentUWPPart1\AssignmentUWPPart1\bin\x86\Debug\Pages\Upload.xbf">
       <PackagePath>Pages\Upload.xbf</PackagePath>
-      <Modified>2019-10-02T13:54:07.606</Modified>
+      <Modified>2019-10-02T14:20:38.937</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -126,7 +126,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\APTECH\Sem3\AssignmentUWPPart1\AssignmentUWPPart1\bin\x86\Debug\Core\AssignmentUWPPart1.exe">
       <PackagePath>AssignmentUWPPart1.exe</PackagePath>
-      <Modified>2019-10-02T13:54:08.203</Modified>
+      <Modified>2019-10-02T14:20:39.532</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

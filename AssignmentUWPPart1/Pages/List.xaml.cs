@@ -34,13 +34,6 @@ namespace AssignmentUWPPart1.Pages
         {
             this.InitializeComponent();
             this.ListSong = new ObservableCollection<Music>();
-            this.ListSong.Add(new Music()
-            {
-                name = "ABC",
-                singer = "ABC",
-                thumbnail = "ABC",
-                link = "abc"
-            });
             var httpClient = new HttpClient();
             Task<HttpResponseMessage> httpRequestMessage = httpClient.GetAsync(ApiUrl);
             String responseContent = httpRequestMessage.Result.Content.ReadAsStringAsync().Result;
@@ -56,16 +49,5 @@ namespace AssignmentUWPPart1.Pages
                 });
             }
         }
-
-        private List<Music> getList()
-        {
-            var httpClient = new HttpClient();
-            Task<HttpResponseMessage> httpRequestMessage = httpClient.GetAsync(ApiUrl);
-            String responseContent = httpRequestMessage.Result.Content.ReadAsStringAsync().Result;
-            List<Music> listSong = JsonConvert.DeserializeObject<List<Music>>(responseContent);
-            return listSong;
-        }
-        
-        
     }
 }
